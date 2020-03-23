@@ -12,8 +12,6 @@ if(CMAKE_VERSION VERSION_LESS "3.7.0")
     set(CMAKE_INCLUDE_CURRENT_DIR ON)
 endif()
 
-#set(Qt5_DIR "d:\programs\Qt\5.12.1\msvc2017_64\bin\")
-
 find_package(Qt5 COMPONENTS Gui Widgets Core REQUIRED)
 
 get_target_property(QtCore_location Qt5::Core LOCATION)
