@@ -14,6 +14,8 @@ endif()
 
 find_package(Qt5 COMPONENTS Gui Widgets Core REQUIRED)
 
+#Bla
+
 get_target_property(QtCore_location Qt5::Core LOCATION)
 message("Plugin is at location ${QtCore_location}")
 
